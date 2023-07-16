@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="tailtest.Application">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setupClass"/>
+          <include name="s03"/>
+          <include name="beforeSuite"/>
+          <include name="setUp"/>
+          <include name="tearDownClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tailtest.Application -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

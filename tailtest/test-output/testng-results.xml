@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-16T09:19:52Z" name="Default suite" finished-at="2023-07-16T09:20:33Z" duration-ms="40580">
+    <groups>
+    </groups>
+    <test started-at="2023-07-16T09:19:52Z" name="Default test" finished-at="2023-07-16T09:20:33Z" duration-ms="40580">
+      <class name="tailtest.Application">
+        <test-method is-config="true" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:19:52Z" name="beforeSuite" finished-at="2023-07-16T18:19:52Z" duration-ms="467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ba9f743]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setupClass(org.testng.ITestContext)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:19:52Z" name="setupClass" finished-at="2023-07-16T18:19:52Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ba9f743]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:19:52Z" name="setUp" finished-at="2023-07-16T18:19:57Z" duration-ms="4384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="s01()[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:19:57Z" name="s01" description="Center Home에서 로그인 페이지로 이동" finished-at="2023-07-16T18:19:59Z" duration-ms="2401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s01 -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:19:57Z" name="beforeMethod" finished-at="2023-07-16T18:19:57Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tailtest.Application.s01() throws java.net.MalformedURLException,java.io.IOException,com.lbiz.APIException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:19:59Z" name="afterMethod" finished-at="2023-07-16T18:20:00Z" duration-ms="227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tailtest.Application.s01() throws java.net.MalformedURLException,java.io.IOException,com.lbiz.APIException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=s01 status=SUCCESS method=Application.s01()[pri:0, instance:tailtest.Application@27f0ad19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:00Z" name="beforeMethod" finished-at="2023-07-16T18:20:00Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tailtest.Application.s02() throws java.net.MalformedURLException,java.io.IOException,com.lbiz.APIException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="s02()[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:00Z" name="s02" description="login" finished-at="2023-07-16T18:20:03Z" duration-ms="3417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s02 -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:03Z" name="afterMethod" finished-at="2023-07-16T18:20:03Z" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tailtest.Application.s02() throws java.net.MalformedURLException,java.io.IOException,com.lbiz.APIException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=s02 status=SUCCESS method=Application.s02()[pri:0, instance:tailtest.Application@27f0ad19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="s04()[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:03Z" name="s04" description="Enter MKTP" finished-at="2023-07-16T18:20:07Z" duration-ms="3450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s04 -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:03Z" name="beforeMethod" finished-at="2023-07-16T18:20:03Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tailtest.Application.s04() throws java.net.MalformedURLException,java.io.IOException,com.lbiz.APIException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:07Z" name="afterMethod" finished-at="2023-07-16T18:20:07Z" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tailtest.Application.s04() throws java.net.MalformedURLException,java.io.IOException,com.lbiz.APIException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=s04 status=SUCCESS method=Application.s04()[pri:0, instance:tailtest.Application@27f0ad19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="s05()[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:07Z" name="s05" description="Apply SPC_default" finished-at="2023-07-16T18:20:11Z" duration-ms="4209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s05 -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:07Z" name="beforeMethod" finished-at="2023-07-16T18:20:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tailtest.Application.s05() throws java.net.MalformedURLException,java.io.IOException,com.lbiz.APIException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:11Z" name="afterMethod" finished-at="2023-07-16T18:20:11Z" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tailtest.Application.s05() throws java.net.MalformedURLException,java.io.IOException,com.lbiz.APIException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=s05 status=SUCCESS method=Application.s05()[pri:0, instance:tailtest.Application@27f0ad19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:11Z" name="beforeMethod" finished-at="2023-07-16T18:20:11Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tailtest.Application.s06()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="s06()[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:11Z" name="s06" description="select period" finished-at="2023-07-16T18:20:15Z" duration-ms="3737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s06 -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:15Z" name="afterMethod" finished-at="2023-07-16T18:20:15Z" duration-ms="41" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tailtest.Application.s06()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=s06 status=SUCCESS method=Application.s06()[pri:0, instance:tailtest.Application@27f0ad19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:15Z" name="beforeMethod" finished-at="2023-07-16T18:20:15Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tailtest.Application.s07()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="s07()[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:15Z" name="s07" description="select product type" finished-at="2023-07-16T18:20:18Z" duration-ms="3182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s07 -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:18Z" name="afterMethod" finished-at="2023-07-16T18:20:18Z" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tailtest.Application.s07()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=s07 status=SUCCESS method=Application.s07()[pri:0, instance:tailtest.Application@27f0ad19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="s08()[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:18Z" name="s08" description="payment" finished-at="2023-07-16T18:20:20Z" duration-ms="1583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s08 -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:18Z" name="beforeMethod" finished-at="2023-07-16T18:20:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tailtest.Application.s08()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:20Z" name="afterMethod" finished-at="2023-07-16T18:20:20Z" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tailtest.Application.s08()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=s08 status=SUCCESS method=Application.s08()[pri:0, instance:tailtest.Application@27f0ad19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:20Z" name="beforeMethod" finished-at="2023-07-16T18:20:20Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tailtest.Application.s09()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="s09()[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:20Z" name="s09" description="API Payment" finished-at="2023-07-16T18:20:32Z" duration-ms="12233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s09 -->
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:32Z" name="afterMethod" finished-at="2023-07-16T18:20:32Z" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tailtest.Application.s09()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=s09 status=SUCCESS method=Application.s09()[pri:0, instance:tailtest.Application@27f0ad19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:32Z" name="tearDownClass" finished-at="2023-07-16T18:20:33Z" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="afterSuite(org.testng.ITestContext)[pri:0, instance:tailtest.Application@27f0ad19]" started-at="2023-07-16T18:20:33Z" name="afterSuite" finished-at="2023-07-16T18:20:33Z" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ba9f743]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tailtest.Application -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
